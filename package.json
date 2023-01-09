@@ -1,0 +1,23 @@
+{
+  "name": "puppeteerlearningbites",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Project for the learning bites session",
+  "main": "index.js",
+  "scripts": {
+    "launching": "node ./scripts/launching.js",
+    "evaluation": "node ./scripts/evaluation.js",
+    "debugging": "node ./scripts/debugging.js",
+    "context": "node ./scripts/context.js",
+    "pageNavigation": "node ./scripts/pageNavigation.js",
+    "performance": "node ./scripts/performance.js",
+    "accessibility": "node ./scripts/accessibility.js",
+    "codeCoverage": "node ./scripts/codeCoverage.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^19.4.1"
+  }
+}
